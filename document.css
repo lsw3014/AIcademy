@@ -17,7 +17,7 @@ a{
 }
 .head{
   width:100%;
-  height:17%;
+  height:10%;
   border-bottom:1px solid #e1e1e1;
   position:relative;
 }
@@ -26,7 +26,8 @@ a{
   font-size:50pt;
   font-style:italic;
   font-weight:800;
-  padding-top:8px;
+  margin-top: 15px;
+  margin-bottom: 15px;
 }
 .body{
   height:100%;
@@ -56,18 +57,18 @@ a{
   cursor:pointer;
 }
 .burgur{
-right: 25px;
-top: 33px;
+right: 30px;
+top: 40px;
 position: absolute;
-width: 50px;
-height: 7px;
+width: 80px;
+height: 10px;
 background: #000000;
 }
 .burgur .top-line{
-width: 50px;
-height: 7px;
+width: 80px;
+height: 10px;
 background-color: #000000;
-bottom: -10px;
+bottom: -20px;
 content: '';
 position: absolute;
 right: 0;
@@ -76,10 +77,10 @@ transition: transform .3s;
 
 }
 .burgur .bot-line {
-width: 50px;
-height: 7px;
+width: 80px;
+height: 10px;
 background-color: #000000;
-top: -10px;
+top: -20px;
 content: '';
 position: absolute;
 right: 0;
@@ -127,7 +128,7 @@ transform: translateY(-5px) rotate(-135deg);
 .slide ul li{
   display:inline-block;
   width:100%;
-  height: 12%;
+  height: 15%;
   font-size: 32pt;
   padding:10px;
   border-bottom:1px solid #e1e1e1;
