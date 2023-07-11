@@ -17,13 +17,13 @@ a{
 }
 .head{
   width:100%;
-  height:10%;
+  height:17%;
   border-bottom:1px solid #e1e1e1;
   position:relative;
 }
 .logo{
   text-align:center;
-  font-size:45pt;
+  font-size:50pt;
   font-style:italic;
   font-weight:800;
   padding-top:8px;
@@ -45,7 +45,7 @@ a{
   display:flex;
   justify-content:center;
   align-items:center;
-  margin-bottom: 5%;          /*추가*/
+  margin-bottom: 5%;
 }
 .slide-open{
   position:absolute;
@@ -56,18 +56,18 @@ a{
   cursor:pointer;
 }
 .burgur{
-right: 15px;
-top: 23px;
+right: 25px;
+top: 33px;
 position: absolute;
-width: 20px;
-height: 2px;
+width: 50px;
+height: 7px;
 background: #000000;
 }
 .burgur .top-line{
-width: 20px;
-height: 2px;
+width: 50px;
+height: 7px;
 background-color: #000000;
-bottom: -5px;
+bottom: -10px;
 content: '';
 position: absolute;
 right: 0;
@@ -76,17 +76,17 @@ transition: transform .3s;
 
 }
 .burgur .bot-line {
-width: 20px;
-height: 2px;
+width: 50px;
+height: 7px;
 background-color: #000000;
-top: -5px;
+top: -10px;
 content: '';
 position: absolute;
 right: 0;
 -webkit-transition:  -webkit-transform .3s;
 transition: transform .3s;
 }
-
+/*
 .burgur.on {
 width: 0;
 }
@@ -97,7 +97,7 @@ transform: translateY(5px) rotate(135deg);
 .burgur.on .top-line{
 -webkit-transform: translateY(-5px) rotate(-135deg);
 transform: translateY(-5px) rotate(-135deg);
-}
+}*/
 .slide{
   width:100%;
   position:absolute;
@@ -127,7 +127,7 @@ transform: translateY(-5px) rotate(-135deg);
 .slide ul li{
   display:inline-block;
   width:100%;
-  height: 8%;
+  height: 12%;
   font-size: 32pt;
   padding:10px;
   border-bottom:1px solid #e1e1e1;
