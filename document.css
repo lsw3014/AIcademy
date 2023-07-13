@@ -41,6 +41,10 @@ a{
   padding: 5%;
   text-align: center;
 }
+#id{
+  font-size: 20pt;
+  opacity: 0.3;
+}
 .content{
   height:100%;
   width: 90%;       /**/
@@ -50,7 +54,7 @@ a{
   flex-direction:column; /**/
   justify-content:center;
   align-items:center;
-  margin-bottom: 5%;
+  margin-bottom: 8%;
 }
 .content a{
   text-decoration: none;
@@ -111,7 +115,7 @@ transform: translateY(-5px) rotate(-135deg);
   width:100%;
   position:absolute;
   left:-100%;
-  top:0;
+  top:10%; /**/
   right:0;
   bottom:0;
   -webkit-transition: left .3s;
