@@ -116,7 +116,7 @@ transform: translateY(-5px) rotate(-135deg);
   width:100%;
   position:absolute;
   left:-100%;
-  top:5%; /**//**/
+  top:7%; /**//**/
   right:0;
   bottom:0;
   -webkit-transition: left .3s;
