@@ -23,15 +23,11 @@ a{
 }
 .logo{
   text-align:center;
-  font-size:50pt;
+  font-size:40pt;
   font-style:italic;
   font-weight:800;
   margin-top: 15px;
   margin-bottom: 15px;
-}
-.logo a{
-  text-decoration: none;
-  color: black;
 }
 .body{
   height:100%;
@@ -45,10 +41,6 @@ a{
   padding: 5%;
   text-align: center;
 }
-.body a{
-  text-decoration: none;
-  color: #7eb9ed;
-}
 .content{
   height:100%;
   width: 90%;       /**/
@@ -59,6 +51,10 @@ a{
   justify-content:center;
   align-items:center;
   margin-bottom: 5%;
+}
+.content a{
+  text-decoration: none;
+  color: #7eb9ed;
 }
 .slide-open{
   position:absolute;
