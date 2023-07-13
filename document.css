@@ -14,7 +14,6 @@ a{
   width:100%;
   margin:0 auto;
   border:1px solid #e1e1e1;
-  background-color: #faf8ed;
 }
 .head{
   width:100%;
@@ -40,9 +39,12 @@ a{
   flex-direction:column;
   overflow-y:scroll;
   padding: 5%;
+  text-align: center;
 }
 .content{
   height:100%;
+  width: 90%;       /**/
+  margin: auto;     /**/
   font-size:30pt;
   display:flex;
   justify-content:center;
