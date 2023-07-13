@@ -29,6 +29,10 @@ a{
   margin-top: 15px;
   margin-bottom: 15px;
 }
+.logo a{
+  text-decoration: none;
+  color: black;
+}
 .body{
   height:100%;
   width: 100%;
@@ -41,12 +45,17 @@ a{
   padding: 5%;
   text-align: center;
 }
+.body a{
+  text-decoration: none;
+  color: #7eb9ed;
+}
 .content{
   height:100%;
   width: 90%;       /**/
   margin: auto;     /**/
   font-size:30pt;
   display:flex;
+  flex-direction:column; /**/
   justify-content:center;
   align-items:center;
   margin-bottom: 5%;
